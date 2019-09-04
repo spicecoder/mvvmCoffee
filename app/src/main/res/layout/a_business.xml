@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/border1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#FFF"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:id="@+id/abusiness"
+    />
+    <TextView
+
+            android:textSize="16sp"
+            android:id="@+id/abusiness_address_1"
+            android:background="#FF6"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:labelFor="@+id/abusiness_review_count"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:id="@+id/abusiness_review_l"
+                android:background="#FF6"
+                android:text="@string/review_count" android:contentDescription="@string/no_of_reviews"/>
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="#FFF"
+                android:layout_gravity="end"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:id="@+id/abusiness_review_count"
+        />
+    </LinearLayout>
+</LinearLayout>

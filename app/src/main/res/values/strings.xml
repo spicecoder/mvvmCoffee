@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">...MVVM + Retrofit + Dagger 2 -> Kotlin</string>
+    <string name="business_list">Business List :Coffee !, Brisbane </string>
+    <string name="review_count">Review Count</string>
+    <string name="no_of_reviews">No of reviews</string>
+</resources>
